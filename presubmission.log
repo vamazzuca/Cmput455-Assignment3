@@ -1,0 +1,26 @@
+Script started on 2022-03-14 03:01:22-06:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="119" LINES="33"]
+]0;alex@alex-VirtualBox: ~[01;32malex@alex-VirtualBox[00m:[01;34m~[00m$ cp assignment3.tgz Documents
+]0;alex@alex-VirtualBox: ~[01;32malex@alex-VirtualBox[00m:[01;34m~[00m$ cd Documents
+]0;alex@alex-VirtualBox: ~/Documents[01;32malex@alex-VirtualBox[00m:[01;34m~/Documents[00m$ tar -xvzf assignment3.tgz
+assignment3/
+assignment3/simulation_util.py
+assignment3/board_score.py
+assignment3/gtp_connection.py
+assignment3/._gtp_connection.py
+assignment3/ucb.py
+assignment3/readme.txt
+assignment3/board_util.py
+assignment3/board.py
+assignment3/._run_NoGo.sh
+assignment3/assignment3-public-tests.gtp
+assignment3/._assignment3-public-tests.gtp
+assignment3/NoGo.py
+assignment3/run_NoGo.sh
+assignment3/pattern_based_probabilistic.py
+assignment3/weights.txt
+]0;alex@alex-VirtualBox: ~/Documents[01;32malex@alex-VirtualBox[00m:[01;34m~/Documents[00m$ cd assignment3
+]0;alex@alex-VirtualBox: ~/Documents/assignment3[01;32malex@alex-VirtualBox[00m:[01;34m~/Documents/assignment3[00m$ gogui-regress "python3 NoGo.py" assignment3-public-tests.gtp
+]0;alex@alex-VirtualBox: ~/Documents/assignment3[01;32malex@alex-VirtualBox[00m:[01;34m~/Documents/assignment3[00m$ exit
+exit
+
+Script done on 2022-03-14 03:03:19-06:00 [COMMAND_EXIT_CODE="0"]
